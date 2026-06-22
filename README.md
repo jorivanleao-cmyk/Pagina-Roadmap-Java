@@ -1,23 +1,29 @@
-Resumo das modificações
+# Roadmap de Estudos Java
 
-Arquivos alterados:
+Aplicação web criada para organizar meu plano de estudos em Java, com trilhas de aprendizado, checklists persistentes e acompanhamento de evolução.
 
-- index.html: adicionado o conteúdo do Volume 2 e Volume 3 da Mentoria; inserida a logo do Java no canto superior direito.
-- style.css: adicionadas regras de background com halo radial e textura sutil; `.logo-java` ajustada para tamanho maior, estilo circular, hover suave e responsividade; mais espaço foi adicionado ao layout para afastar o conteúdo da logo.
-- script.js: mantido e referenciado em `index.html` para persistência do estado dos checkboxes.
-- assets/java-logo.svg: imagem da logo do Java salva localmente e usada em `index.html`.
+## Objetivo
 
-Detalhes:
+Organizar a jornada de estudos para Desenvolvimento Java Backend, cobrindo fundamentos da linguagem, orientação a objetos, banco de dados, APIs REST, Spring Boot e projetos práticos.
 
-- Logo local: `assets/java-logo.svg` agora é o recurso de imagem usado, eliminando a dependência externa à internet.
-- Tamanho e posicionamento: logo maior (`82px`) com mais espaço do topo (`top: 26px`) e padding direito extra no container para manter o conteúdo afastado.
-- Visual do fundo: fundo com gradiente escuro e halo radial no canto superior direito para destacar a logo.
-- Conteúdo: Volumes 2 e 3 adicionados como seções/`details` no `index.html`, incluindo módulos, semanas, projetos e checklist.
-- Checklists finais: as seções finais do Volume 2 e Volume 3 agora usam checkboxes interativos, cujo estado é salvo pelo `script.js` no `localStorage`.
-- Checklist: mantenha `script.js` no mesmo diretório para salvar progresso dos checkboxes via `localStorage`.
+## Tecnologias utilizadas
 
-Como reverter rapidamente:
+- HTML
+- CSS
+- JavaScript
+- LocalStorage
 
-- Restaurar os arquivos modificados a partir do controle de versão (git) ou substituir os conteúdos nos arquivos listados.
+## Funcionalidades
 
-Data das mudanças: 2026-06-01
+- Checklist de estudos por módulo
+- Persistência de progresso no navegador
+- Organização por etapas de aprendizado
+- Interface responsiva
+- Estrutura de estudos para Java Backend
+
+## Próximos passos
+
+- Integrar uma API Java própria
+- Adicionar autenticação
+- Salvar progresso em banco de dados
+- Publicar uma versão online
